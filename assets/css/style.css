@@ -30,7 +30,6 @@ header a
     {
         text-decoration:none;
         color:#fce138;
-
     }
 header nav
     {
@@ -47,6 +46,50 @@ header nav ul li a {
         font-weight: lighter;
         font-size: 22px;
       }
+/* Hero Style */      
+.hero
+    {
+        padding :60px;
+        background-image:url("../img/hero-bg.jpeg") ;
+        background-position:center;
+        background-size: cover;
+        height :620px;
+        position:relative;
+    }
+.hero-form
+    {
+        margin:0;
+        background-color: #fce138;
+        border-style: solid;  
+        border-color:#024e76;
+        border-width: 3px;
+        color:#024e76;
+        padding:20px;
+        width: 500px;
+        bottom:0px;
+        position:absolute;
+        bottom:100px;
+        right:100px;
+
+    } 
+h3  
+    {
+        font-weight:bolder;
+        font: size 24px;
+        margin:0;
+    }
+
+button
+    {
+      background-color:#024e76;
+      color:#fce138;
+      font-size:16px;
+      border:none;
+      padding:10px 10px 15px 10px;
+      text-align:center;
+      
+      
+    }            
 footer  
     {
         background-color: #fce138;
@@ -74,7 +117,33 @@ footer a
         color:#024e76;
     }
 section div
-{
+    {
         color:#024e76;
-}
+    }
 
+p 
+    {
+        padding-top:10px;
+        padding-bottom:5px ;
+    }
+
+label
+    {   
+        margin-left:5px;
+    
+    }
+.form-input
+    {
+        border-style: solid;
+        border-color:#024e76;
+        font-size:16px;
+        color:#024e76;
+        margin-bottom:10px ;
+        padding:6px 15px;
+        display:block;
+    }   
+
+input
+    {
+        border:none;
+    }

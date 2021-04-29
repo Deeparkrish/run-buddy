@@ -34,37 +34,40 @@
         </header>
 
         <!-- hero/jumbotron -->
-        <section>
-            <div>
+        <section class ="hero">
+            <div  class= "hero-form">
                 <h3>Get Started Today!</h3>
-                <p>Fill out this form and one of our trainers will schedule a consult</p>
+                <p>Fill out this form and one of our trainers will schedule a consult.</p>
             <!-- Add Form Element for input-->
-            <form>
-                <label for= "name">Enter full name: </label>
-                <input type ="text" placeholder="Your name" name="name" id="name"/>
-                
-                <label for = "email">Enter email address:</label>
-                <input type ="email" placeholder="Email Address" name="email" id="email"/>
-                
-                <label for ="phone">Enter a telephone number:</label>
-                <input type ="tel"placeholder="Phone Number" name="phone" id="phone"/>
+                <form >
+                    
+                    <label for= "name">Enter full name: </label>
+                    <input type ="text" placeholder="Your name" name="name" id="name" class="form-input"/>
+                    
+                    <label for = "email">Enter email address:</label>
+                    <input type ="email" placeholder="Email Address" name="email" id="email" class="form-input"/>
+                    
+                    <label for ="phone">Enter a telephone number: </label>
+                    <input type ="tel"placeholder="Phone Number" name="phone" id="phone" class="form-input"/>
 
-                <p>
-                    Have you worked with a trainer before?
-                    <input  type="radio" name="trainer-confirm" id="traineryes"/>
-                    <label for ="traineryes">Yes</label>
-                    <input  type="radio" name="trainer-confirm" id="trainerno"/>
-                    <label for ="trainerno">No</label>
-                </p>
-                <p>
-                    <label for="acknowledge">I acknowledge that I am atleast 18 years of age.</label> 
-                    <input type ="checkbox" id="acknowledge" name= "acknowledge"/>
-                </p>
-               <!--- <input type="button" id="button" name="button" value="Get Running!"/> -->
-                    <button type="button">Get Running!</button>
-                </p> 
+                    <p>
+                        Have you worked with a trainer before?
+                        <!--- add radio button-->
+                        <input  type="radio" name="trainer-confirm" id="traineryes"/>
+                        <label for ="traineryes">Yes</label>
+                        <input  type="radio" name="trainer-confirm" id="trainerno"/>
+                        <label for ="trainerno">No</label>
+                    </p>
+                    <p>
+                        <!--- add checkbox-->
+                        <label for="acknowledge">I acknowledge that I am atleast 18 years of age.</label> 
+                        <input type ="checkbox" id="acknowledge" name= "acknowledge"/>
+                    </p>
+                    <!--- <input type="button" id="button" name="button" value="Get Running!"/> -->
+                        <button type="button">Get Running!</button>
+                    </p> 
                    
-            </form>
+                 </form>
             </div>
         </section>
         <!-- "what do we "section -->
@@ -90,6 +93,7 @@
         <footer>
             <h2> ❤️ Made with love by Run Buddy</h2>
             <div>
+                <!--link to privacy policy-->
                 <a href="#">Read Our Privacy Policy</a><br />
                 &copy; 2019 Run Buddy, Inc.
               </div>
