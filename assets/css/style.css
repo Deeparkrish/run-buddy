@@ -72,14 +72,14 @@ header nav ul li a {
         right:100px;
 
     } 
-h3  
+.hero-form h3  
     {
         font-weight:bolder;
         font: size 24px;
         margin:0;
     }
 
-button
+.hero-form button
     {
       background-color:#024e76;
       color:#fce138;
@@ -90,8 +90,7 @@ button
       
       
     } 
-    .intro h2{
-
+    .section-title{
          text-align: center;
          color:#024e76;
          font-size:55px;
@@ -103,17 +102,18 @@ button
     .intro{
         text-align: center;
     }
-    .intro.primary-border 
+    .primary-border 
     {
         border-color: #fce138;
     }
-    #what-you-do 
+    .steps
     {
+        text-align:center;
         background-color: #fce138;
               
     }
 
-    .intro.secondary-border
+    .secondary-border
     {
         border-color:#39a6b2;
     }
@@ -126,12 +126,27 @@ button
         font-size: 20px;
         margin:0 auto;
     }
-    .intro img{
+    .steps  img{
         height: auto;
         width:15vh;
     }
-    .intro div{
+    .steps div{
         margin-bottom: 80px;
+    }
+
+    .steps h3 {
+        color: #024e76;
+        font-size: 46px;
+        margin-top: 10px;
+      }
+      
+      .steps p {
+        color: #39a6b2;
+        font-size: 23px;
+      }
+    .steps span
+    {
+        font-size:38px;
     }
 
 footer  
@@ -165,16 +180,15 @@ section div
         color:#024e76;
     }
 
-p 
+.hero-form p 
     {
-
         padding-top:10px;
         padding-bottom:5px ;
     }
 
-label
+.hero-form label
     {   
-        margin-left:5px;
+        margin-left: 0 5px;
     
     }
 .form-input
