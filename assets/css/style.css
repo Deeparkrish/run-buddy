@@ -89,7 +89,51 @@ button
       text-align:center;
       
       
-    }            
+    } 
+    .intro h2{
+
+         text-align: center;
+         color:#024e76;
+         font-size:55px;
+         margin-bottom: 35px;
+        padding: 0 100px 20px 100px;
+        display:inline-block;
+        border-bottom: 3px solid;
+    }
+    .intro{
+        text-align: center;
+    }
+    .intro.primary-border 
+    {
+        border-color: #fce138;
+    }
+    #what-you-do 
+    {
+        background-color: #fce138;
+              
+    }
+
+    .intro.secondary-border
+    {
+        border-color:#39a6b2;
+    }
+
+    .intro p{
+
+        line-height: 1.7;
+        color: #39a6b2;
+        width: 80%;
+        font-size: 20px;
+        margin:0 auto;
+    }
+    .intro img{
+        height: auto;
+        width:15vh;
+    }
+    .intro div{
+        margin-bottom: 80px;
+    }
+
 footer  
     {
         background-color: #fce138;
@@ -123,6 +167,7 @@ section div
 
 p 
     {
+
         padding-top:10px;
         padding-bottom:5px ;
     }
