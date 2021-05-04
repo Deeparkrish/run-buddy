@@ -121,18 +121,18 @@ header nav ul li a {
         padding: 0 100px 20px 100px;
         display:inline-block;
         border-bottom: 3px solid;
+        padding-bottom:20px;
+        margin:0 auto 35px auto;
+        width:50%
     }
-.intro
-    {
-        text-align: center;
-    }
+
 .primary-border 
     {
         border-color: #fce138;
     }
 .steps
     {
-        text-align:center;
+        
         background-color: #fce138;
               
     }
@@ -148,6 +148,7 @@ header nav ul li a {
         width: 80%;
        font-size: 20px;
        padding-bottom:10px;   
+       text-align: center;
        
     }
 .steps  img{
@@ -229,14 +230,11 @@ section div
         display:block;
     }   
 
-input
+    input
     {
         border:none;
     }
-    .trainers{ 
-        text-align:center;
-     }
-     
+    
      .trainer{
          width:900px;
          margin: 0 auto 30px auto;
@@ -283,7 +281,7 @@ input
         color:#fce138;  
       }
       .contact{
-        text-align:center;
+        
         background-color:#024e76 ;
       }
       .contact-info iframe
@@ -312,4 +310,8 @@ input
       
       .contact-info a {
         color: #fce138;
+      }
+
+      .flex-row {
+        display: flex;
       }
