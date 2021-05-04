@@ -11,7 +11,7 @@ A website that offers fitness training services.
 * CSS
 
 ## Website
-https://Deepakrish.github.io/run-buddy/
+https://lernantino.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by Deepa Krishnan
