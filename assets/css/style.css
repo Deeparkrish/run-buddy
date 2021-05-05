@@ -10,344 +10,313 @@ body {
     /* more on this crazy alphanumerical value in a minute! */
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
-  }
+}
 
-  /* apply styles to <header> */
-header 
-    {
+  /* Apply styles to <header> */
+header {
     padding: 20px 35px;
     background-color: #39a6b2;
     display:flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    }
-header h1
-    {
+}
+header h1{
       font-weight: bold;
       margin:0;
       font-size: 36px;
       color:#fce138;
       
-    }
-header a 
-    {
+}
+header a {
         text-decoration:none;
         color:#fce138;
-    }
-header nav
-    {
-        
+}
+header nav{   
         margin:7px 0;
-
-    }
-header nav ul
-    {
+}
+header nav ul{
         display:flex;
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
         list-style: none;
-    }
+}
 header nav ul li a {
         margin: 0 30px;
         font-weight: lighter;
         font-size: 1.55vw;
-
-      }
-/* Hero Style for home page  */      
-.hero
-    {
-        padding :60px;
-        background-image:url("../img/hero-bg.jpeg") ;
-        background-position:center;
-        background-size: cover;
-        display: flex;
-        justify-content:center;
-        flex-wrap: wrap;
-    }
-.hero-form
-    {
-        margin:0;
-        background-color: #fce138;
-        border-style: solid;  
-        border-color:#024e76;
-        border-width: 3px;
-        color:#024e76;
-        padding:20px;
-        width:35%;
-        margin:3.5%;
-        
-    } 
-.hero-cta
-    {
-        text-align: right;
-        width:35%;
-        margin:3.5%;
-        color:#fff;
-        font-size: 18px;
-        line-height: 1.3;
-    }
-
-.hero-cta h2
-    {
-        font-style:italic;
-        font-size: 55px;
-        color:#fce138;
-    }
-.hero-form h3  
-    {
-        font-weight:bolder;
-        font: size 24px;
-        margin:0;
-    }
-
-.hero-form button
-    {
-      background-color:#024e76;
-      color:#fce138;
-      font-size:16px;
-      border:none;
-      padding:10px 10px 15px 10px;
-      text-align:center;
-      
-      
-    } 
-.section-title
-    {
-        text-align: center;
-        color:#024e76;
-        font-size:55px;
-        margin-bottom: 35px;
-        padding: 0 100px 20px 100px;
-        display:inline-block;
-        border-bottom: 3px solid;
-        padding-bottom:20px;
-        margin:0 auto 35px auto;
-        width:50%
-    }
-
-.primary-border 
-    {
-        border-color: #fce138;
-    }
-.steps
-    {
-        
-        background-color: #fce138;
-              
-    }
-.secondary-border
-    {
-        border-color:#39a6b2;
-    }
-
-.intro p
-    {
-        display:inline-block;
-        line-height: 1.7;
-        color: #39a6b2;
-        width: 80%;
-       font-size: 20px;
-       padding-bottom:10px;   
-       text-align: center;
-       
-    }
-.step{
-
-    display:flex;
-    flex-wrap: wrap;
-    align-items:center;
-    justify-content:space-between;
-    margin: 50px auto;
-    padding-bottom: 50px;
-    width: 80%;
-    border-bottom: 1px solid #39a6b2
-
 }
+/* Header syle end */
 
-.step h3 {
-
-        color: #024e76;
-        font-size: 46px;
-        flex:1 30%;
-
-      }
-.step-info {
-        display:flex;
-        flex-wrap: wrap;
-        align-items: center;
-       flex: 2 70%;
-    
-
-      }
-.step-img
-{
-    flex:1 12%;
-    margin-right:20px;
-
-}
-.step-img img{
-    width:100%
-}
-.step-text
-{
-    flex:12;
-}
-.step-text p 
-    {
-        color: #39a6b2;
-        font-size: 18px;
-    }
-
-.step-text h4{
-
-    font-size:26px;
-    line-height :1.5;
-    color:#024e76;
-}
-
-footer  
-    {
+/* Footer Style start */
+footer {
         background-color: #fce138;
         width:100%;
         padding: 40px 35px;
         justify-content:space-between;
         flex-wrap: wrap;
 
-    }
-footer h2     
-    {
+}
+footer h2 {
 
         color:#024e76;
         font-size:30px;
         margin:0;
 
-    }
-footer  div
-    {
+}
+footer  div{
         display: flex;
         line-height:1.5;
         text-align:right;
 }
-footer a
-    {
+footer a{
         /*font-weight:bolder;*/
         color:#024e76;
-    }
-section div
-    {
-        color:#024e76;
-    }
+}
+/* Footer Style end */
 
-.hero-form p 
-    {
-        padding-top:10px;
-        padding-bottom:5px ;
-    }
 
-.hero-form label
-    {   
-        margin-left: 0 5px;
-    
-    }
-.form-input
-    {
-        border-style: solid;
+
+   
+/* Hero Style for home page  */      
+.hero{
+        background-image:url("../img/hero-bg.jpeg") ;
+        background-position:center;
+        background-size: cover;
+        display: flex;
+        justify-content:center;
+        flex-wrap: wrap;
+}
+.hero-form{
+        margin:0;
+        background-color: #fce138;
+        border-style:solid;  
         border-color:#024e76;
-        font-size:16px;
+        border-width: 3px;
         color:#024e76;
-        margin-bottom:10px ;
-        padding:6px 15px;
-        display:block;
-    }   
-
-    input
-    {
+        padding:20px;
+        width:40%;
+        margin:3.5%;        
+} 
+.form-input{
+    border:1px solid;
+    border-color:#024e76;
+    font-size:16px;
+    color:#024e76;
+    margin-bottom:15px ;
+    padding:7px 15px;
+    display:block;
+    width:100%;
+}   
+.hero-cta{
+        text-align: right;
+        width:35%;
+        margin:3.5%;
+        color:#fff;
+        font-size: 18px;
+        line-height: 1.3;
+}
+.hero-cta h2{
+        font-style:italic;
+        font-size: 55px;
+        color:#fce138;
+}
+.hero-form h3{
+        font: size 24px;
+        margin:0;
+}
+.hero-form button{
+        background-color:#024e76;
+        color:#fce138;
+        font-size:16px;
         border:none;
-    }
-    .trainers {
+        padding:10px 20px;
+        text-align:center;           
+} 
+.hero-form p {
+        margin:5px 0 15px 0;
+}
+
+.hero-form label{   
+        margin: 0 5px;
+}
+/* Hero Style end */
+
+
+/* Section- title styling start */
+.section-title{
+        text-align: center;
+        color:#024e76;
+        font-size:55px;
+        margin-bottom: 35px;
+        display:inline-block;
+        border-bottom: 3px solid;
+        padding-bottom:20px;
+        margin:0 auto 35px auto;
+        width:50%
+}
+.primary-border {
+        border-color: #fce138;
+}
+.secondary-border{
+        border-color:#39a6b2;
+}
+/* End Section title style */
+
+/* What we do Style */
+.intro p{
+        line-height: 1.7;
+        color: #39a6b2;
+        width: 80%;
+        font-size: 20px;
+        padding-bottom:10px;   
+        text-align: center;
+        margin:0 auto;
+}
+
+/* What you do Style */
+.steps{
+        background-color: #fce138;
+}
+.step{
+        display:flex;
+        flex-wrap: wrap;
+        align-items:center;
+        justify-content:space-between;
+        margin: 50px auto;
+        padding-bottom: 50px;
+        width: 80%;
+        border-bottom: 1px solid #39a6b2
+}
+.step h3 {
+        color: #024e76;
+        font-size: 46px;
+        flex:1 30%;
+}
+.step-info {
+        display:flex;
+        flex-wrap: wrap;
+        align-items: center;
+        flex: 2 70%;
+}
+.step-img{
+        flex:1 12%;
+        margin-right:20px;
+}
+.step-img img{
+        width:100%
+}
+.step-text
+{
+        flex:12;
+}
+.step-text p {
+        color: #39a6b2;
+        font-size: 18px;
+}
+.step-text h4{
+        font-size:26px;
+        line-height :1.5;
+        color:#024e76;
+}
+/* What you do end */
+
+/* Trainers section style*/
+.trainers {
         width: 100%;
         margin: 0 auto;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-      }
-
-     .trainer{
-         
-         margin: 20px;
-         background:#024e76 ;
-         flex:1;             
-     }
-     .trainer img {
-        width:100%;
-           
-    }
-     .trainer-bio{
-         padding: 25px;
-         
-         width:65%;
-         color:#fce138;
-         line-height: 1.3;   
-     }
-     
-     .text-right{
-         text-align:right;
-     }
-     .text-left{
-        text-align:left;
-    }
-    .trainer-bio h3 {
-        font-size: 28px;
-       
-      }
-      
-      .trainer-bio h4 {
+}
+.trainer{
+        color:#fce138;
+        margin: 20px;
+        background:#024e76 ;
+        flex:1;             
+}
+.trainer img {
+        width:100%;      
+}
+ .trainer-bio{
+        padding: 25px;
+        line-height: 1.3;   
+}
+ .trainer-bio h3 {
+        font-size: 28px;  
+}
+.trainer-bio h4 {
         font-weight: lighter;
         font-size: 22px;
         margin-bottom: 15px;
-      }
-      
-      .trainer-bio p {
+}
+.trainer-bio p {
         font-size: 17px;
-      }
-        
-      .contact h2 
-      {
-        color:#fce138;  
-      }
-      .contact{
-        
-        background-color:#024e76 ;
-      }
-      .contact-info iframe
-      {
-            width: 400px;
-            height: 400px;       
-      }
-      .contact h3{
-          color:#fce138;
-          font-size:32px;
-      }
-       .contact-info div{
-          width: 410px;
-           vertical-align: top;
-           display:inline-block;
-           text-align: left;
-           color:whitesmoke;
-           margin:20px;
-       }
-       .contact-info p, .contact-info address {
-        margin: 20px 0;
-        line-height: 1.5;
-        font-size: 20px;
-        font-style: normal;
-      }
-      
-      .contact-info a {
-        color: #fce138;
-      }
+}
+/* Trainer styles end */
 
-      .flex-row {
+/* Reach out styles */
+.contact h2 {
+        color:#fce138;  
+}
+.contact{
+        background-color:#024e76 ;
+}
+.contact-info {
+        display:flex;  
+        justify-content: space-between;
+        flex-wrap: wrap;       
+}
+.contact-info h3{
+        color:#fce138;
+        font-size:32px;
+}
+.contact-info div{
+        color:whitesmoke;
+}
+.contact-info > * {
+        flex:1;
+        margin:15px;    
+}
+.contact-info p, .contact-info address {
+        margin:20px 0;
+        font-size: 16px;
+        line-height: 1.5;
+        font-style: normal;
+}      
+.contact-info a {
+        color: #fce138;
+}
+.contact-info iframe {
+        height: 400px;
+} 
+.contact-form input, .contact-form textarea{
+        border: 1px solid #024e76;
+        display: block;
+        padding: 7px 15px;
+        font-size: 16px;
+        color: #024e76;
+        width: 100%; 
+        margin-bottom: 15px;
+        margin-top: 5px;
+}
+.contact-form  button{
+        width:100%;
+        border:none;
+        background:#fce138;
+        color:#024e76;
+        text-align: center;
+        padding:15px 0;
+        font-size:16px;
+}
+
+/* End of reach out */
+.text-right{
+        text-align:right;
+}
+.text-left{
+        text-align:left;
+}
+.flex-row {
         display: flex;
-      }
+}
