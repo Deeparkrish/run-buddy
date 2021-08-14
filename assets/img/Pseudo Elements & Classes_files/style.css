@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin:0;
+
+}
+
+header{
+  background-color: black;;
+  padding: 20px 35px;
+
+}
+body {
+
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 ;
+  padding: 0;
+  background-color: black;
+  height: 50%";
+
+}
+
+section {
+width:100%;
+padding: 0 10%; 
+display :block;
+}
+main{
+ 
+  background: #fffeee;
+  width:100%; 
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none outside;
+}
+
+li {
+  list-style: none;
+  width: 135px;
+  
+}
+
+/* TODO: Add your code to give every other list item a different background color */
+li:nth-child(odd){
+  background:peru;
+}
+/* TODO: Add your code to add a potato emoji to the list item */
+li::before {
+  content: "🥔"; /* FontAwesome Unicode */
+  /*font-family: FontAwesome;*/
+}
+ li:hover{
+  /*content::icon(❤️); */
+  font-weight: bolder;
+  list-style: circle;
+  text-shadow: 5px 10px 5px green;
+  
+}
+
+li:focus{
+  color:red;
+}
+/* TODO: Add your code to make the first line of the first paragraph bold */
+.intro::first-line{
+  font-size:larger;
+  font-weight:bold;
+}
+
+/* TODO: Add your code to change the style of the first letter of the second paragraph */
+.conclusion::first-letter{
+  font-weight: 900;
+  font-size: x-large;
+  color: red;
+  font-family: cursive;
+}
+/* TODO: Add your code to change the style of the list items when hovering over them */
+
+
+
+
+/* TODO: Add your code to change the potato to a heart */
+
+
+
+
+
+
