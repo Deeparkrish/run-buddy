@@ -1,5 +1,5 @@
-# run-buddy
-Run-Buddy 
+# Run-Buddy
+
 ## Description
 Building a webpage for Run Buddy, a company that matches runners with personal trainers.
 A mock-up of the landing page is being provided by the design team.
